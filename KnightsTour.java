@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 
 public class KnightsTour {
-	public static int BOARD_SIZE = 6;
+	public static int BOARD_SIZE = 7;
 	public static final int EMPTY = 0;
 	//public static final int KNIGHT = 1;
 	
@@ -28,7 +28,7 @@ public class KnightsTour {
 		KnightsTour k = new KnightsTour();
 		long startTime = System.currentTimeMillis();
 		
-		k.placeKnightWarnsdorfs(0, 0);
+		k.placeKnight(0, 0);
 		
 		k.displayBoard();
 		long endTime = System.currentTimeMillis();
